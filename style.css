@@ -1,0 +1,93 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(123, 231, 119) 0%,
+    #0b2e55 100%
+  );
+}
+
+.board {
+  margin: auto;
+  margin-top: 10%;
+  width: 50%;
+  height: 750px;
+  display: flex;
+}
+
+.player {
+  border-radius: 25px;
+  background-color: rgb(128, 165, 153);
+  margin: auto;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  opacity: 0.3;
+}
+
+.active {
+  opacity: 1;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 100px;
+  color: #be1f1f;
+}
+
+h4 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.current_score {
+  background-color: #052141;
+  border: 0px solid;
+  border-radius: 25px;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  font-weight: bold;
+  border: none;
+  font-size: 40px;
+  padding: 20px;
+  font-family: inherit;
+  border-radius: 25px;
+  opacity: 1;
+  z-index: 5;
+}
+
+.btn_new {
+  top: 250px;
+}
+
+.btn_roll {
+  top: 650px;
+}
+
+.btn_hold {
+  top: 800px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.dice {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 150px;
+  top: 425px;
+  z-index: 5;
+  border-radius: 15px;
+}
